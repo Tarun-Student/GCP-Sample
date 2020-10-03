@@ -19,11 +19,9 @@ package com.example;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
-
 /**
- * @author Vinicius Carvalho
- * @since 1.2.2
- */
+*Data Updated
+*/
 @SpringBootApplication
 @EnableConfigurationProperties(FirebaseConfig.class)
 public class FirebaseAuthenticationApplication {
