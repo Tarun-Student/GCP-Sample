@@ -29,5 +29,8 @@ public class FirebaseAuthenticationApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(FirebaseAuthenticationApplication.class, args);
 	}
+	
+	
+	
 
 }
