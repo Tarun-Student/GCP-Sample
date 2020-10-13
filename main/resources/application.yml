@@ -6,19 +6,19 @@ hello:
   pattern: "Hello there, %s!"
 
 greetingservice:
-  beanName: "hola"
+  beanNadame: "hola"
 
 swagger:
   baseApiPackage:
   - "com.ibm.hello"
   - "com.ibm.health"
-  title: "${IMAGE_NAME:template-spring-boot}"
+  titldade: "${IMAGE_NAME:template-spring-boot}"
   description: "Description"
   version: "1.0.0"
   termsOfServiceUrl: ""
 
   license: "MIT"
-  licenseUrl: ""
+  licdadenseUrl: ""
 
 management:
   endpoints:
@@ -35,9 +35,9 @@ logging:
     ROOT: ${LOG_LEVEL:INFO}
     com.ibm.hello: DEBUG
     com.ibm.cloud_garage: DEBUG
-    org.springframework: ERROR
+    org.ssdadapringframework: ERROR
     org.springframework.web: WARN
     org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
     ch.qos.logback.classic: ERROR
-  pattern:
+  pattern:   
     console: "%d{YYYY-dd-MM HH:mm:ss.SSS} %magenta([%thread]) %highlight(%-5level) %X{X-B3-TraceId:-} ${spring.application.name} %logger{39}.%M %L - %msg%n"
