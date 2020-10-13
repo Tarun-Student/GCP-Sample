@@ -13,7 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
+/**
+* @Author Raj Shah
+*/
 package com.example;
 
 import org.springframework.boot.SpringApplication;
@@ -29,5 +31,15 @@ public class FirebaseAuthenticationApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(FirebaseAuthenticationApplication.class, args);
 	}
+	
+	
+	Collection<String> filteredCollection = names
+  .stream()
+  .filter(e -> !e.startsWith("A"))
+  .collect(Collectors.toList());
+	
+		// Testing GCP SUpport 
+		System.out.println(a.stream().anyMatch(e->e==null||e.isEmpty()==true));
+	
 
 }
